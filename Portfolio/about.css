@@ -1,0 +1,157 @@
+*{
+    font-family: 'FuturisticFont', sans-serif !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.pic {
+    flex: 1;
+    text-align: right;
+}
+
+
+.about {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: 290;
+    line-height: 1.5;
+    margin-top: 2%;
+}
+
+.about-me {
+    font-size: 19px;
+    font-weight: 290;
+    line-height: 1.5;
+    margin-top: 2%;
+}
+
+.uni-info {
+    font-size: 18px;
+    font-weight: 280;
+    line-height: 1.5;
+    margin-top: 2%;
+}
+
+.pic img {
+    height: 450px; 
+    width: 350px;
+}
+
+
+.education {
+    padding: 20px;
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+}
+
+table.table-hover tbody tr:hover {
+    background-color: lightslategray;
+}
+
+
+.facts {
+    padding: 20px;
+}
+
+.fact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-facts {
+    flex: 1;
+    font-size: 19px;
+    font-weight: 290;
+    line-height: 1.5;
+    margin-top: 2%;
+}
+
+.pic-2 {
+    flex: 1;
+    text-align: right;
+    margin-right: 40px; /* Adjust the margin-right to add space between pic and text */
+}
+
+.pic-2 img {
+    height: 350px;
+    width: 500px;
+}
+
+.custom-navbar {
+    background-color: #000 !important; /* Dark background */
+    }
+    
+    .navbar-brand {
+    color: #00ff00 !important; /* Neon green text color for brand */
+    font-family: 'FuturisticFont', sans-serif !important; /* Futuristic font */
+    }
+    
+    .navbar-nav > li > a {
+    color: #00ff00 !important; /* Neon green text color for links */
+    }
+    
+    .navbar-nav > li > a:hover {
+    color: #ff00ff !important; /* Electric pink color on hover */
+    }
+
+    body {
+        background-color: #000;
+        color: #00ff00; /* Neon green text color */
+        font-family: 'FuturisticFont', sans-serif; /* Use a futuristic font */
+        }
+
+ .abt, .about, .edu, .random {
+    color: #ff00ff;
+ }
+
+       
+
+th {
+    background-color: transparent;
+}

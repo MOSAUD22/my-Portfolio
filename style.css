@@ -1,0 +1,209 @@
+.image img {
+  border-radius: 50%;
+  width: 450px; 
+  height: 450px; 
+}
+
+.information {
+  font-size: 18px;
+  font-weight: 280;
+  line-height: 1.5;
+  margin-top: 2%;
+}
+
+.header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.secondhead {
+  font-size: 24px;
+}
+
+.work-head {
+  text-align: center;
+}
+
+.result-pic {
+  height: 150px;
+  width: 200px;
+}
+
+.cart-img {
+  height: 100px;
+  width: 150px;
+}
+
+
+/* Style for the container */
+.my-work {
+  display: flex;
+  justify-content: center; /* Center align items horizontally */
+  gap: 20px; /* Add some spacing between the cards */
+}
+
+/* Style for the card panels */
+.card {
+  flex: 1; /* Distribute available space equally among cards */
+  max-width: 18rem; /* Set a maximum width for the cards */
+}
+
+/* Style for the card titles */
+.panel-title {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Style for the card images */
+.panel-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the card text */
+.panel-body p {
+  padding: 10px;
+  max-height: 80px; /* Limit the maximum height of the text content */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Style for the card buttons */
+.panel-body .btn-primary {
+  display: block;
+  text-align: center;
+  width: 100%; /* Set the width to 100% to display full text */
+}
+
+/* the cyber punk */
+/* Dark background */
+body {
+background-color: #000;
+color: #00ff00; /* Neon green text color */
+font-family: 'FuturisticFont', sans-serif; /* Use a futuristic font */
+}
+
+/* Neon borders and shadows */
+.card {
+border: 2px solid #00ff00; /* Neon green border */
+box-shadow: 0 0 10px #00ff00; /* Neon green shadow */
+}
+
+/* Cyberpunk-inspired header */
+.header {
+font-family: 'FuturisticFont', sans-serif;
+color: #ff00ff; /* Electric pink */
+}
+
+/* Futuristic buttons */
+.btn-primary {
+background-color: #000;
+border: 2px solid #00ff00;
+color: #00ff00;
+transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+background-color: #00ff00;
+color: #000;
+}
+
+/* Cyberpunk images */
+.result-pic,
+.cart-img {
+border: 2px solid #00ff00;
+box-shadow: 0 0 10px #00ff00;
+}
+
+/* Neon link colors */
+a {
+color: #00ff00;
+}
+
+a:hover {
+color: #ff00ff;
+}
+
+/* Navbar */
+.custom-navbar {
+background-color: #000 !important; /* Dark background */
+}
+
+.navbar-brand {
+color: #00ff00 !important; /* Neon green text color for brand */
+font-family: 'FuturisticFont', sans-serif !important; /* Futuristic font */
+}
+
+.navbar-nav > li > a {
+color: #00ff00 !important; /* Neon green text color for links */
+}
+
+.navbar-nav > li > a:hover {
+color: #ff00ff !important; /* Electric pink color on hover */
+}
+
+/* Secondhead (About Me Section Title) */
+.secondhead {
+font-size: 24px;
+color: #ff00ff; /* Electric pink text color */
+font-family: 'FuturisticFont', sans-serif; /* Futuristic font */
+}
+
+/* Information Section */
+.information {
+font-size: 18px;
+line-height: 1.5;
+color: #00ff00; /* Neon green text color */
+font-family: 'FuturisticFont', sans-serif; /* Futuristic font */
+}
+
+/* Define the animation for moving background and fading in */
+@keyframes move-bg {
+to {
+  background-position: 50% 100%;
+}
+}
+
+@keyframes fade-in {
+0% {
+  opacity: 0;
+}
+}
+
+/* Apply animation to the <p> elements */
+p {
+background: radial-gradient(
+  50% 100% at 50% 100%,
+  hsl(var(--accent, 10) 90% 95%),
+  hsl(var(--accent, 10) 90% 50%),
+  transparent 50%
+);
+background-size: 400% 600%;
+-webkit-background-clip: text;
+background-position: 50% 0;
+animation-name: move-bg, fade-in;
+animation-fill-mode: both;
+animation-timing-function: linear;
+animation-duration: 3s; /* Adjust the duration as needed */
+animation-iteration-count: infinite; /* Infinite animation */
+}
+
+.work-head {
+  color: #ff00ff;
+  background: radial-gradient(
+  50% 100% at 50% 100%,
+  hsl(var(--accent, 10) 90% 95%),
+  hsl(var(--accent, 10) 90% 50%),
+  transparent 50%
+);
+background-size: 400% 600%;
+-webkit-background-clip: text;
+background-position: 50% 0;
+animation-name: move-bg, fade-in;
+animation-fill-mode: both;
+animation-timing-function: linear;
+animation-duration: 3s; /* Adjust the duration as needed */
+animation-iteration-count: infinite;
+}

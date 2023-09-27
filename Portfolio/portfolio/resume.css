@@ -1,0 +1,85 @@
+*{
+    font-family: 'FuturisticFont', sans-serif !important;
+}
+
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* navbar cyberpunk */
+.custom-navbar {
+    background-color: #000 !important; /* Dark background */
+    }
+    
+    .navbar-brand {
+    color: #00ff00 !important; /* Neon green text color for brand */
+    font-family: 'FuturisticFont', sans-serif !important; /* Futuristic font */
+    }
+    
+    .navbar-nav > li > a {
+    color: #00ff00 !important; /* Neon green text color for links */
+    }
+    
+    .navbar-nav > li > a:hover {
+    color: #ff00ff !important; /* Electric pink color on hover */
+    }
+
+    body {
+        background-color: #000;
+        color: #00ff00; /* Neon green text color */
+        font-family: 'FuturisticFont', sans-serif; /* Use a futuristic font */
+        }
+
+  .header, .topic{
+    color: #ff00ff
+    
+  }      
+
+  .students, .uni{
+    color: #00ff00;
+  }
+
+  #abstract, #introduction, #related-work, #methodology,
+   #conclusion, .ref {
+    background-color: #0f0f0f; /* Cyberpunk black color */
+    color: #00ff00;; /* Set text color to white for better readability */
+    padding: 20px; /* Add some padding for spacing around the content */
+}
+
+.abs, .intro, .related, .method, .concl {
+    color: #ff00ff
+}
